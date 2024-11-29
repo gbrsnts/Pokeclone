@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url('./assets/background.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #a4c1ff;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0; 
+}
+
+#banner {
+  font-size: 3rem;
+  color: #FFCB05;
+  text-shadow: 2px 2px 0 #3B4CCA, 4px 4px #3B4CCA;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+#banner:hover {
+  transform: scale(1.1);
+}
+
+#sub-app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-container {
+  display: flex;
+  flex-direction: column;
+  animation: fadeInScale 0.5s ease-in-out;
+}
+
+
+.botao-jogar {
+  font-family: 'Press Start 2P', sans-serif;
+  padding: 20px 15px;
+  margin: 10px;
+  width: 225px;
+  font-size: 1rem;
+  border: 3.5px dashed rgb(60, 100, 60);
+  border-image: linear-gradient(to right, black 100%, transparent 0%) 3;
+  border-image-slice: 1;
+  border-radius: 20px 6px 6px 6px;
+  cursor: pointer;
+  background-color: #F8F6D6;
+  transition: all 0.3s ease;
+}
+
+.botao-jogar:hover {
+  transform: scale(1.1);
+  background-color: #F0E68C;
+
+}
+
+.titulo-pokemon {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #4CAF50;
+  text-shadow: 1px 1px 0 #2b2a2c, 2px 2px 0 #2b2a2c;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+@font-face {
+  font-family: 'PokemonClassic';
+  src: url('https://pokedle.net/fonts/PokemonClassic.900f8add.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

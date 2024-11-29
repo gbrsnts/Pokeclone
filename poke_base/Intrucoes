@@ -1,0 +1,16 @@
+# Projeto para levantar as informações para o banco de dados
+
+rodar o main.py
+
+# Para transformar o arquivo .db em arquivo .sql
+
+No terminal digite "sqlite3 pokemons.db"
+.headers on
+.mode insert pokemons
+.output pokemons.sql
+SELECT * FROM pokemon;
+.output stdout
+
+# Para inputar o arquivo no banco
+
+# mysql -u root -p Pokeclone < pokemons.sql

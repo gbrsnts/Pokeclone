@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+@font-face {
+    font-family: 'PokemonClassic';
+    src: url('https://pokedle.net/fonts/PokemonClassic.900f8add.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

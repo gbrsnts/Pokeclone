@@ -1,0 +1,17 @@
+#procurar-pokemon-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-procurar {
+    background-color: #F8F6D6;
+    border: 3.5px solid #4CAF50;
+    border-radius: 20px 6px 6px 6px;;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    max-width: 100%;
+    width: fit-content;
+    animation: fadeInScale 0.5s ease-in-out;
+}

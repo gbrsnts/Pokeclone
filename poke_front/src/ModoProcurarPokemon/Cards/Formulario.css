@@ -1,0 +1,59 @@
+.abas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.aba-button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFCB05;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.aba-button.ativo {
+    background-color: #3B4CCA;
+    color: white;
+}
+
+.aba-button:not(.ativo):hover {
+    background-color: #F0E68C;
+}
+
+.search-button {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFCB05;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #3B4CCA;
+    color: white;
+}
+
+
+.aba-container {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-flow: column;
+}
+
+.aba-item {
+    display: flex;
+    align-items: center;
+}
+
+.pokemon-sprite {
+    width: 75px;
+    height: auto;
+}

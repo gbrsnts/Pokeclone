@@ -1,0 +1,89 @@
+.sugestao-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-sugestao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.formulario-sugestao label {
+    display: flex;
+    font-size: 1rem;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario-sugestao input[type="text"],
+.formulario-sugestao textarea {
+    font-family: monospace;
+    padding: 8px;
+    border: 2px solid rgb(60, 100, 60);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #FFCB05;
+    color: #3B4CCA;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.formulario-sugestao input[type="text"]:focus,
+.formulario-sugestao textarea:focus {
+    background-color: #F0E68C;
+    outline: none;
+    transform: scale(1.05);
+}
+
+.formulario-sugestao textarea{
+    height: 10vh;
+}
+
+.formulario-sugestao button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s;
+    font-family: monospace;
+}
+
+
+.formulario-sugestao button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.asterisco {
+    color: red;
+    margin-left: 5px;
+}
+
+.container-sugestao {
+    background-color: #F8F6D6;
+    border: 3.5px solid #4CAF50;
+    border-radius: 20px 6px 6px 6px;;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    max-width: 100%;
+    width: fit-content;
+    animation: fadeInScale 0.5s ease-in-out;
+  }

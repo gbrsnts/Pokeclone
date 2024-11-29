@@ -1,0 +1,9 @@
+.tabela-pokemon {
+    width: 65vw;
+    border-collapse: collapse;
+  }
+  
+.tabela-pokemon th, .tabela-pokemon td {
+    padding: 10px;
+    text-align: center; 
+}
