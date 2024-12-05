@@ -3,7 +3,6 @@ import ProcurarPokemon from './ModoProcurarPokemon/ProcurarPokemon';
 import Sugestao from './ModoSugestao/Sugestao';
 import Melhorias from './ModoMelhorias/Melhorias';
 import { ProvedorDados } from './hooks/provedorDados'
-import githubLogo from './assets/github.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link, useNavigate } from 'react-router-dom';
 
@@ -26,7 +25,7 @@ function App() {
 function Menu() {
   const navigate = useNavigate()
   const handleGitHub = () => {
-    window.open('https://github.com/', '_blank');
+    window.open('https://github.com/gbrsnts/Pokeclone', '_blank');
   };
 
   return (

@@ -14,7 +14,7 @@ CREATE TABLE `pokemons` (
   `url_sprite` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=152 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+) ENGINE=InnoDB AUTO_INCREMENT=152 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
 CREATE TABLE `suggestions` (
@@ -23,7 +23,7 @@ CREATE TABLE `suggestions` (
   `matricula` varchar(20) DEFAULT NULL,
   `sugestao` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
 INSERT INTO pokemons(id,name,type1,type2,habitat,color,stage,height,weight,url_sprite) VALUES(1,'Bulbasaur','Relva','Veneno','Prados','Verde',1,70,6.90000000000000035,'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png');
