@@ -1,6 +1,6 @@
 # Pokeclone
 
-Esta aplicação é desenvolvida em **Node.js** e **React** e integração com banco de dados para um projeto de ADS.
+Esta aplicação é desenvolvida em **Node.js** e **React** e possu integração com banco de dados **MySQL**, e é um projeto de ADS.
 
 ## **Instruções de configuração**
 
@@ -59,9 +59,9 @@ Digite a senha do usuário `root`quando for solicitado
     exit
 
 ### **5. Configure o arquivo de conexão**
-1. Acessea pasta `Pokeclone/poke_back/config`
+1. Acesse a pasta `Pokeclone/poke_back/config`
 
-2. Renomei o arquivo `db.js.exemplo` para `db.js`
+2. Renomeie o arquivo `db.js.exemplo` para `db.js`
 
 3. Edite o conteúdo do arquivo `db.js` para adicionar a senha configurada no usuário `app_pokeclone`
 
