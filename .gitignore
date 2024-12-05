@@ -16,7 +16,6 @@ db.js
 *.py
 utils
 *.db
-pokemons.sql
 
 # Editor directories and files
 .vscode/*

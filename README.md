@@ -5,7 +5,7 @@ Esta aplicação é desenvolvida em **Node.js** e **React** e integração com b
 ## **Instruções de configuração**
 
 ### **1. Instale o MySQL Server**
-1. Caso não tenha o MySQL Server instalado em sua máquina, use o comando abaixo para instalar no `Linux`:
+1. Caso não tenha o MySQL Server instalado em sua máquina, use o comando abaixo para instalar no **Linux**:
     ```
     sudo apt install mysql-server
 
@@ -67,15 +67,15 @@ Digite a senha do usuário `root`quando for solicitado
 
 ### **6. Inicie a aplicação**
 1. Instale as dependências do back-end
-    1. Navegue até a pasta poke_back
+    1. Navegue até a pasta **poke_back**
     2. Execute o comando `npm i`
-    3. Inicie o `back-end` com o comando:
+    3. Inicie o **back-end** com o comando:
         ```
         node server.js
 
 2. Instale as dependências do front-end
-    1. Navegue até a pasta `poke_front`
+    1. Navegue até a pasta **poke_front**
     2. Execute o comando `npm i`
-    3. Inicie o `front-end`com o comando:
+    3. Inicie o **front-end** com o comando:
         ```
         npm run dev
