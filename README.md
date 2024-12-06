@@ -28,14 +28,18 @@ Esta aplicação é desenvolvida em **Node.js** e **React** e possu integração
 
 
 ### **3. Clone o repositório**
-1. Faça o clone do repositório com o comando:
+1. Caso não tenha o git instalado, use o comando abaixo:
+    ```
+    apt install git
+
+2. Faça o clone do repositório com o comando:
     ```
     git clone https://github.com/gbrsnts/Pokeclone.git
 
 ### **4. Configure o Banco de Dados**
 1. Crie o database e as tabelas do banco usando o arquivo SQL do repositório:
     ```
-    mysql -u root -p Pokeclone/poke_base/criar_tabelas.sql
+    mysql -u root -p < Pokeclone/poke_base/criar_tabelas.sql
 
 Digite a senha do usuário `root`quando for solicitado
 
@@ -59,13 +63,15 @@ Digite a senha do usuário `root`quando for solicitado
     exit
 
 ### **5. Configure o arquivo de conexão**
-1. Acesse a pasta `Pokeclone/poke_back/config`
+1. Renomeie o arquivo `Pokeclone/poke_front/.env.exemplo` para `.env`
 
-2. Renomeie o arquivo `db.js.exemplo` para `db.js`
+2. Renomeie o arquivo `Pokeclone/poke_back/config/db.js.exemplo` para `db.js`
 
-3. Edite o conteúdo do arquivo `db.js` para adicionar a senha configurada no usuário `app_pokeclone`
+4. Edite o conteúdo do arquivo `db.js` para adicionar a senha configurada no usuário `app_pokeclone`
 
 ### **6. Inicie a aplicação**
+Com o Node já instalado siga os próximos passos:
+
 1. Instale as dependências do back-end
     1. Navegue até a pasta **poke_back**
     2. Execute o comando `npm i`
